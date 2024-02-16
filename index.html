@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farhan Akhtar</title>
+    <link rel="icon" type="image/icon" href="resources/favicon/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="resources/logo/logo.png" class="logo"></img>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Experience</a></li>
+                    <li><a href="#portfolio">Gallery</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Tech Fanatic</p>
+                <h1>Hi, I'm <span>Farhan</span><br>Akhtar from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="resources/about.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p>I am Farhan Akhtar and I am 21 year younger. I Belong to Jharkhand, currently residing in Pune. I
+                        am pursuing My Bachelor's Degree in Computer Science Engineering from Gitam University in
+                        Visakhapatnam.</p>
+                    <br>
+                    <p>I have a keen knowledge of current technologies that we use in our day-to-day lives. I have a
+                        good understanding of web development, programming languages, and database management systems
+                        (DBMS). Currently, I am expanding my knowledge in cybersecurity. I have completed 2 major
+                        projects and 1 mini-project that showcase my skills. My latest project focused on data
+                        protection and information preservation using homomorphic encryption.</p>
+                    <br>
+                    <p id="readMoreText" style="display:none;">I am a quick learner, and problem solver quickly
+                        identifying and addressing challenges with a positive attitude. Life's journey has been both
+                        challenging and fulfilling, driving me towards continuous growth and self-discovery and I'm
+                        trying to expand my array of interests as much as possible.
+                        <br><br><i><b>Excellence is a journey, not a destination and the finish line is where the
+                                journey begins.</i></b><br><br>
+                    </p>
+                    <p id="readLessText" style="display:none;"><a href="#" onclick="toggleReadMore(event)">Read Less</a>
+                    </p>
+                    <p id="readMoreLink"><a href="#" onclick="toggleReadMore(event)">Read More</a></p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experiences</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                        <p class="tab-links" onclick="openTab('hobbies')">Hobbies</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Language
+                                </span><br><br>Python || My SQL || Java || C</li>
+                            <li><span>Data management
+                                </span><br><br>Oracle Database || Microsoft Excel || Google Sheets</li>
+                            <li><span>Web Development</span><br><br>HTML5 & CSS || Git & GitHub || JavaScript
+                            </li>
+                            <li><span>CyberSecurity</span><br><br>Information
+                                Security || Cryptography || Selenium || Kali Linux</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <ul>
+                                <li><span>2023 - Aug</span><br><br>JNTUH Cyber Security & Forensics Internship || Intern</li>
+                                <li><span>2023 - May</span><br><br>JNTUH Cyber Security & Forensics Workshop || Participant
+                                </li>
+                                <li><span>2023 - Mar</span><br><br>Smart GITAM Hackathon || Finalist</li>
+                                <li><span>2022 - 2023</span><br><br>Venture Development Centre || RSG Program Intern</li>
+                            </ul>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - Present</span><br><br>Bachelor's Degree in Computer Science Engineering<br>from Gitam University, Visakhapatnam</li>
+                            <li><span>2019 - 2021</span><br><br>Class XII/Intermediate<br>from Holy Cross School, West Bokaro</li>
+                            <li><span>2019</span><br><br>Class X/SSC<br>from Holy Cross School, West Bokaro</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="hobbies">
+                        <ul>
+                            <li><span>Reading & Writing</span><br><br>Newspaper || Books || Tweets</li>
+                            <li><span>Sports & Fitness</span><br><br>Chess || Cricket || Meditation || Physical Workout</li>
+                            <li><span>Sketching</span><br><br>Fictional Sketching || Imagination Sketching || Portrait</li>
+                            <li><span>Traveling</span><br><br>Exploring New Places || Tradition || Culture || Food</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">
+                <center>My Experience</center>
+            </h1>
+            <div class="services-list">
+                <div>
+                    <center><i class="fa-solid fa-code"></i></center>
+                    <h2>Web Development</h2>
+                    <p>As a web developer, I have experience in creating static websites and am currently progressing
+                        towards
+                        developing dynamic websites. I possess knowledge of HTML5, CSS, and JavaScript within this
+                        domain.</p>
+                </div>
+                <div>
+                    <center><i class="fa-solid fa-keyboard"></i></center>
+                    <h2>Programming</h2>
+                    <p>In programming, I possess knowledge of C, Java, Python and I utilize these languages to solve
+                        various problems. In this field, I am well-versed in data structures, optimal programming, and
+                        profiling algorithms.</p>
+                </div>
+                <div>
+                    <center><i class="fa-solid fa-lock"></i></center>
+                    <h2>CyberSecurity</h2>
+                    <p>I have embarked on a journey to learn ethical hacking, acquiring a fundamental understanding of
+                        Cybersecurity.
+                        I am currently in the process of learning Cybersecurity tools and Kali Linux, which will aid in
+                        enhancing my penetration
+                        testing and vulnerability assessment skills.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">
+                <center>My Gallery</center>
+            </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="resources/gallary/4.png" alt="">
+                    <div class="">
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="resources/gallary/6.png" alt="">
+                    <div class="">
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="resources/gallary/3.png" alt="">
+                    <div class="">
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="resources/gallary/1.png" alt="">
+                    <div class="">
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="resources/gallary/8.png" alt="">
+                    <div class="">
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="resources/gallary/5.png" alt="">
+                    <div class="">
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="resources/gallary/2.png" alt="">
+                    <div class="">
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="resources/gallary/7.png" alt="">
+                    <div class="">
+                    </div>
+                </div>
+            </div>
+            <a href="blank" class="btn btn-show-more">Show More</a>
+            <a href="blank" class="btn btn-show-less">Show Less</a>
+        </div>
+    </div>
+    <!-- ----------LOCATION---------- -->
+    <div id="location" class='container'>
+        <h1 class="sub-title">
+            <center>My Location</center>
+        </h1>
+        <br>
+        <br>
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d349.85274486613633!2d83.3784730317279!3d17.78375253948253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a395b029a1ce195%3A0x4a6c2459ef50538e!2sQ9MH%2BFHP%2C%20Endada%20Rushikonda%20Rd%2C%20Rushikonda%2C%20Visakhapatnam%2C%20Andhra%20Pradesh%20530045!5e0!3m2!1sen!2sin!4v1708098942980!5m2!1sen!2sin"
+                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0">
+            </iframe>
+        </div><br>
+        <div class='container'>
+            <p>
+                <center><i class="fa-solid fa-location-dot"></i> Rabindranath Tagore Sadan, GITAM
+                    University<br>Visakhapatnam, Andhra Pradesh - 530045</center>
+            </p>
+        </div>
+    </div>
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> farhanakhtar358[at]gmail[dot]com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +91 9515261O45</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/f-akhtar" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/farhanakhtar358" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/farhanakhtar358" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/farhan_akhtar_358" target="_blank"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    <a href="resources/cv/cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made with <i class="fas fa-heart"></i> by Me. Viewed by Superheroes.</p>
+        </div>
+    </div>
+</body>
+
+</html>
