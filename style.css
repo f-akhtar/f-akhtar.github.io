@@ -421,11 +421,12 @@ nav .fas {
 
     .header-text {
         margin-top: 100%;
-        font-size: 16px;
+        font-size: 25px;
+        font-weight: bold;
     }
 
     .header-text h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     /* Show the navigation menu on small screens */
