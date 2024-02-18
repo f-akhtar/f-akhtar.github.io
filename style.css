@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #000000;
+    background: #191919;
     color: #fff;
 }
 
@@ -264,7 +264,7 @@ width: 100%;
 
 .layer a {
     margin-top: 30px;
-    color: #000000;
+    color: #191919;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -362,7 +362,7 @@ width: 100%;
 }
 
 .btn.btn3 {
-    background: #000000;
+    background: #191919;
     margin-top: 30px;
     transition: background 0.5;
 
