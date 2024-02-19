@@ -54,7 +54,7 @@ nav ul li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #db1436;
+    background: #00868c;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -76,7 +76,7 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 span {
-    color: #db1436;
+    color: #00868c;
 }
 
 /* ----------ABOUT---------- */
@@ -127,7 +127,7 @@ nav ul li a:hover::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #db1436;
+    background: #00868c;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -147,7 +147,7 @@ width: 100%;
 }
 
 .tab-contents ul li span {
-    color: #db1436;
+    color: #00868c;
     font-size: 14px;
 }
 
@@ -160,11 +160,11 @@ width: 100%;
 }
 
 #readMoreLink a {
-    color: #db1436;
+    color: #00868c;
 }
 
 #readLessText a {
-    color: #db1436;
+    color: #00868c;
 }
 
 /* ----------SERVICES---------- */
@@ -209,7 +209,7 @@ width: 100%;
 }
 
 .services-list div:hover {
-    background: #db1436;
+    background: #00868c;
     transform: translateY(-10px);
 }
 
@@ -241,8 +241,8 @@ width: 100%;
 .layer {
     width: 100%;
     height: 0;
-    /* background: #db1436; */
-    background: linear-gradient(rgb(0, 0, 0, 0.6), #db1436);
+    /* background: #00868c; */
+    background: linear-gradient(rgb(0, 0, 0, 0.6), #00868c);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -287,7 +287,7 @@ width: 100%;
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #db1436;
+    border: 1px solid #00868c;
     padding: 14px 50px;
     border-radius: 6px;
     color: #fff;
@@ -296,7 +296,7 @@ width: 100%;
 }
 
 .btn:hover {
-    background: #db1436;
+    background: #00868c;
 }
 
 /* Add these styles to hide additional works initially */
@@ -334,7 +334,7 @@ width: 100%;
 }
 
 .contact-left p i {
-    color: #db1436;
+    color: #00868c;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -353,7 +353,7 @@ width: 100%;
 }
 
 .social-icons a:hover {
-    color: #db1436;
+    color: #00868c;
     transform: translateY(-5px);
 }
 
@@ -369,7 +369,7 @@ width: 100%;
 }
 
 .btn.btn3:hover {
-    background: #db1436;
+    background: #00868c;
 }
 
 .contact-right form {
@@ -399,7 +399,7 @@ form textarea {
 }
 
 .copyright i {
-    color: #db1436;
+    color: #00868c;
     transition: color 0.1s;
 }
 
@@ -431,7 +431,7 @@ nav .fas {
 
     /* Show the navigation menu on small screens */
     /* nav ul {
-        background: #db1436;
+        background: #00868c;
         position: fixed;
         top: 0;
         right: 0;
@@ -445,7 +445,7 @@ nav .fas {
     }
 
     nav ul {
-        background: #db1436;
+        background: #00868c;
         position: fixed;
         top: 0;
         /* width: 200px; */
@@ -509,7 +509,7 @@ nav .fas {
 }
 
 #msg {
-    color: #db1436;
+    color: #00868c;
     margin-top: -40px;
     display: block;
 }
